@@ -1,11 +1,8 @@
-# This script takes in the last 60 data points from a Cascade Tek Bakeout
-#chamber. The data points are time and pressure. The pressure is converted into
-#torr and then graphed aganist time as a line graph. The purpose of this is
-#to understand the offgassing rate of the components being baked out in the
-#chambers
+# This script takes in the last 60 data points from a CSV
+#The data points are time and pressure. The pressure is converted into
+#torr and then graphed aganist time as a line graph. 
 
-#Author: ElectroStef (Stefan Tomovic - KSC NEL6)
-#Project: MSolo
+#Author: ElectroStef
 #Date: 05/26/2021
 
 import csv
